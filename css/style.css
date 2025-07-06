@@ -35,10 +35,40 @@ p{
     text-align: justify;
 }
 
-.w3-wide {
+.wide {
     letter-spacing: 10px;
 }
-.w3-hover-opacity {
+.hover-opacity {
     cursor: pointer;}
 
 
+.round-crop-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-crop-img {
+  position: absolute;
+  top: 0px;     /* crop top */
+  left: 0px;    /* crop left */
+  bottom: 200px;  /* crop bottom */
+  right: 0px;   /* crop right */
+  width: 360px;   /* image width larger than container */
+  height: 400px;  /* image height larger than container */
+  object-fit: cover;
+}
+
+.home-quote {
+    font-size: 24px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    }
+
+.right-nav {
+   float: right;
+}
